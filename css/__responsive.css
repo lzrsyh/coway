@@ -1,0 +1,94 @@
+@import url("./__variables.css");
+
+@media screen and (min-width: 1024px) {
+  .navbar-container {
+    padding: 1em 8em;
+  }
+  .navbar-list {
+    display: block;
+    display: flex;
+    gap: 1.5em;
+  }
+  .list-item {
+    list-style: none;
+  }
+  .navbar-link {
+    text-transform: capitalize;
+    color: var(--tx-light);
+  }
+
+  #menu-container {
+    display: none;
+  }
+
+  .sidebar-container {
+    display: none;
+  }
+
+  #home-container {
+    padding: 0 8em;
+  }
+  .home-slide {
+    padding: 2.5em;
+  }
+  .slide-title {
+    font-size: 3em;
+  }
+
+  #about-container {
+    padding: 0 15em;
+  }
+  .about-card {
+    height: 100%;
+  }
+  .about-desc {
+    width: 60%;
+  }
+  .more-button {
+    display: none;
+  }
+
+  #ads-container {
+    margin-top: 5em;
+    padding: 0 15em;
+    background-color: #e7e7e7;
+  }
+  .ads-slider-container {
+    background-color: #b4b4b4;
+  }
+
+  #produk-container {
+    padding: 0 15em;
+  }
+  .produk-desc {
+    width: 60%;
+  }
+
+  #testi-container {
+    padding: 0 15em;
+  }
+  .testi-slide {
+    padding: 3em 6em;
+    gap: 3.5em;
+  }
+
+  #faq-container {
+    padding: 0 15em;
+  }
+
+  #footer-container {
+    padding: 2em 15em;
+  }
+  .address-data {
+    flex-direction: row;
+  }
+
+  /* ? wp & ap style */
+  #produk-display-container {
+    padding: 0 8em;
+  }
+  .display-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}

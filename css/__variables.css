@@ -1,0 +1,32 @@
+/* Variables */
+:root {
+  /* light theme */
+  --bg-light: #f8f8f8;
+  --tx-light: #272727;
+  /* Dark theme */
+  --bg-dark: #272727;
+  --tx-dark: #f2f2f2;
+  /* hover */
+  --bg-hover: #d0d0d0;
+  /* button */
+  --button-light: #e7e7e7;
+  /* bg gradient */
+  --dark-moody: linear-gradient(
+    110.3deg,
+    rgba(73, 93, 109, 1) 4.3%,
+    rgba(49, 55, 82, 1) 96.7%
+  );
+  --cheerful-green: radial-gradient(
+    circle 935px at 3.1% 5.8%,
+    rgba(182, 255, 139, 1) 0%,
+    rgba(8, 88, 127, 1) 100.2%
+  );
+  --blue-lighty: linear-gradient(
+    109.6deg,
+    rgba(39, 142, 255, 1) 11.2%,
+    rgba(101, 103, 233, 0.78) 100.2%
+  );
+
+  --margin: 5em;
+  --padding-desktop: 0 15em;
+}

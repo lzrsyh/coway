@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>my-purifier</title>
+
+
+    <!-- link to css style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/__responsive.css">
+    <link rel="stylesheet" href="./css/__variables.css">
+
+    <!-- link to fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- container -->
+    <div class="container">
+
+        <!-- header container -->
+        <header id="header-container">
+            <nav class="navbar-container">
+                <img src="./img/logo-coway.svg" alt="" class="navbar-logo">
+                <ul class="navbar-list">
+                    <li class="list-item"><a href="" class="navbar-link">home</a></li>
+                    <li class="list-item"><a href="" class="navbar-link">about</a></li>
+                    <li class="list-item"><a href="" class="navbar-link">produk</a></li>
+                    <li class="list-item"><a href="" class="navbar-link">testimonial</a></li>
+                </ul>
+                <div id="menu-container">
+                    <span class="menu-bars"></span>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="sidebar-container">
+            <ul class="sidebar-lists">
+                <li class="list-item"><a href="index.html" class="sidebar-link">home</a></li>
+                <li class="list-item"><a href="" class="sidebar-link">about</a></li>
+                <li class="list-item dropdown">
+                    <input type="checkbox" name="drop" id="drop">
+                    <label class="sidebar-link" for="drop">produk <i class="fas fa-chevron-down p"></i></label>
+                    <ul class="drop-list">
+                        <li class="drop-item"><a href="./page/wp-product.html" target="_self" class="drop-link">water
+                                purifier</a></li>
+                        <li class="drop-item"><a href="./page/ap-product.html" target="_self" class="drop-link">air
+                                purifier</a></li>
+                    </ul>
+                </li>
+                <li class="list-item"><a href="" class="sidebar-link">testimonial</a>
+                <li class="list-item"><a href="" class="sidebar-link">faq</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- main container -->
+        <main id="main-container">
+            <!-- slider -->
+            <section id="home-container">
+                <div class="home-slider-container">
+                    <div class="home-slide">
+                        <h1 class="slide-title">produk <br> water purifier</h1>
+                        <p class="slide-desc">
+                            Hidup sehat untuk keluarga anda dengan mengkonsumsi minuman yang bebas dari kandungan
+                            zat-zat
+                            berbahaya.
+                        </p>
+                        <a href="./page/wp-product.html" target="_self" class="slide-link">lihat produk <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="home-slide">
+                        <h1 class="slide-title">produk <br> air purifier</h1>
+                        <p class="slide-desc">
+                            Jaga kesehatan kealuarga anda
+                        </p>
+                        <a href="./page/ap-product.html" target="_self" class="slide-link">lihat produk <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="button-container">
+                        <button class="prev-button"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-button"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-container">
+                <h1 class=" title about-title">tentang <span class="bold">kami</span></h1>
+                <div class="about-card">
+                    <p class="about-desc">
+                        Didirikan pada tahun 1989, <span class="bold">COWAY</span> telah
+                        berdedikasi untuk meneliti dan mengembangkan solusi lingkungan, terutama
+                        dalam kesehatan dan kesejahteraan pribadi. Dengan spesialis dan ilmuwan
+                        terbaik dunia bekerja bahu-membahu, kami sangat percaya bahwa kami dapat
+                        mencapai misi kami dan mewujudkan visi kami menjadi kenyataan.
+                    </p>
+                </div>
+                <i class="more-button">read more <i class="fas fa-chevron-down d"></i></i>
+            </section>
+
+            <section id="ads-container">
+                <div class="ads-slider-container">
+
+                    <div class="ads-slide">
+                        <div class="ads-data-container">
+                            <img src="/img/bg2.jpeg" alt="" class="ads-image">
+                            <div class="ads-data">
+                                <h4 class="ads-title">water purifier</h3>
+                                    <p class="ads-desc">ombak</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ads-slide">
+                        <div class="ads-data-container">
+                            <img src="/img/bg1.jpg" alt="" class="ads-image">
+                            <div class="ads-data">
+                                <h4 class="ads-title">water purifier</h3>
+                                    <p class="ads-desc">neo plus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="produk-container">
+                <div class="desc-container">
+                    <h1 class="title produk-title">apa itu <br> <span class="bold">water purifier?</span></h1>
+                    <p class="produk-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit accusamus qui
+                        atque
+                        illo asperiores eius inventore laboriosam voluptas vitae. Dignissimos facilis error laudantium
+                        repellat iste odit harum, ipsa rerum odio!
+                    </p>
+                    <a href="./page/wp-product.html" target="_self" class="produk-button">lihat produk <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="desc-container">
+                    <h1 class="title produk-title">apa itu <br> <span class="bold">air purifier?</span></h1>
+                    <p class="produk-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit accusamus qui
+                        atque
+                        illo asperiores eius inventore laboriosam voluptas vitae. Dignissimos facilis error laudantium
+                        repellat iste odit harum, ipsa rerum odio!
+                    </p>
+                    <a href="./page/ap-product.html" target="_self" class="produk-button">lihat produk <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+
+            <section id="testi-container">
+                <h1 class="title testi-title">apa kata mereka <br> tentang <span class="bold">coway?</span></h1>
+                <div class="testi-slider-container">
+                    <div class="testi-slide">
+                        <div class="testi-profile">
+                            <div class="profile-img">
+                                <!-- <img class="avatar" src="" alt=""> -->
+                            </div>
+                            <div class="testi-info">
+                                <p class="profile-name bold">john doe</p>
+                                <p class="profile-job">kang servis</p>
+                            </div>
+                        </div>
+                        <p class="testi-desc">
+                            design produknya elegan dan simple cocok dengan tema rumah saya.
+                        </p>
+                        <div class="indicator-container">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cta-container">
+                <h1 class="title cta-title">ingin mengetahui lebih detail tentang produk <span
+                        class="bold">coway?</span></h1>
+                <a href="" class="cta-button">hubungi kami</a>
+            </section>
+
+            <section id="faq-container">
+                <h1 class="title faq-title">pertanyaan yang <br> sering <span class="bold">ditanyakan</span></h1>
+                <div class="faq-data">
+                    <button class="collapsed">tata cara pembelian produk <i class="fas fa-chevron-down p"></i></button>
+                    <ul class="faq-content">
+                        <li class="faq-desc">
+                            <p class="desc-title bold">chat health planner professional coway</p>
+                            <p>Hubungi kami sekarang, dengan senang
+                                hari Health Planner (HP) kami akan
+                                membantu anda mendapatkan produk
+                                Coway sesuai impian anda.
+                            </p>
+                        </li>
+                        <li class="faq-desc">
+                            <p class="desc-title bold">lengkapi dokumen persyaratan</p>
+                            <p>Lengkapi dokumen anda sebagai
+                                persyaratan dan pembelian produk coway
+                                yang akan di bantu oleh Health Planner.
+                            </p>
+                        </li>
+                        <li class="faq-desc">
+                            <p class="desc-title bold">lakukan transaksi pembayaran</p>
+                            <p>Health Planner (HP) akan memberikan
+                                Link pembayaran dengan system Virtual
+                                Account, Sehingga pembayaran anda
+                                aman dan pasti diterima PT Coway
+                                Indonesia, Setelahnya anda akan
+                                mendapatkan bukti pembayaran resmi.
+                            </p>
+                        </li>
+                        <li class="faq-desc">
+                            <p class="desc-title bold">pengiriman produk</p>
+                            <p>Setelah menyelesaikan semua proses
+                                diatas, maka produk akan dikirim 3 hari
+                                setelah pemesanan dilakukan sesuai dengan
+                                tujuan yang telah di tentukan.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="faq-data">
+                    <button class="collapsed">berapa lama garansi produk? <i class="fas fa-chevron-down p"></i></button>
+                    <ul class="faq-content">
+                        <li class="faq-desc">
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="faq-data">
+                    <button class="collapsed">tata cara pembelian <i class="fas fa-chevron-down p"></i></button>
+                    <ul class="faq-content">
+                        <li class="faq-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error pariatur qui provident
+                            voluptatum velit facere possimus quasi ex ratione!
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer-container">
+            <div class="address-data">
+                <div class="quicknav-container">
+                    <h1 class="quicknav-title bold">quick nav</h1>
+                    <ul class="quicknav-list">
+                        <li class="quicknav-item"><a href="./index.html" target="_self" class="quicknav-link">home</a>
+                        </li>
+                        <li class="quicknav-item"><a href="#about-container" class="quicknav-link">about</a></li>
+                        <li class="quicknav-item"><a href="#produk-container" class="quicknav-link">produk</a></li>
+                        <li class="quicknav-item"><a href="#testi-container" class="quicknav-link">testimonial</a></li>
+                    </ul>
+                </div>
+                <div class="address-container">
+                    <h1 class="address-title bold">address</h1>
+                    <ul class="address-list">
+                        <li class="address-item">
+                            <ul class="item">
+                                <i class="r fas fa-phone"></i>
+                                <p>+62 9009 8289 123</p>
+                            </ul>
+                        </li>
+                        <li class="address-item">
+                            <ul class="item">
+                                <i class="r fas fa-map-marker-alt"></i>
+                                <p>
+                                    Sequis Tower, Lantai 17, Jalan Jenderal Sudirman Kav. 71,
+                                    Jakarta Selatan, 12190
+                                </p>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <p class="copy">copyright &copy; histastion 2021</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/side.js"></script>
+</body>
+
+</html>
